@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset= "UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <a href="home.html"><img src="media/NOWPNGMODEsmol.png" alt="Back to home"></a>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="center">
+            <h1>Schedule your appointment below!</h1>
+            <!-- Countdown repurposed code -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+    
+            <div>
+                <label for="date">Appointment Date:</label>
+                <input type="text" name="date" id="date"><br>
+            </div>
+    
+            <div>
+                <label>&nbsp;</label>
+                <input type="button" name="countdown" id="countdown"
+                    value="Schedule!">
+            </div>
+    
+            <div><label id="message"></label></div>
+
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/schedule.js"></script>
+        <footer id="footer">
+            <hr>
+            <h3>Art by TeiahnFrost and Lumikeii</h3>
+    <a href="https://twitter.com/TeiahnFrost" target="_blank"><img class="tei" src="media/Teiny.png" alt="FOLLOW TEI NOW!"></a><a href="https://twitter.com/Lumikeii" target="_blank"><img class="tei" src="media/smolumi.png" alt="FOLLOW LUMI NOW!"></a>
+        </footer>
+    </body>

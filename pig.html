@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+     <html lang="en">
+        <head>
+            <meta charset= "UTF-8" >
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+            <title>PIG</title>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/pig.css">
+        </head>
+        <body>
+            <header>
+                <a href="home.html"><img src="media/NOWPNGMODEsmol.png" alt="Back to home"></a>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        <main class="center">
+                <h1>Let's Play PIG!</h1>
+		        <fieldset>
+			        <legend>Rules</legend>
+			    <ul>
+				    <li>First player to <span id="winning_total"></span> wins.</li>
+				    <li>Players take turns rolling the die.</li>
+				    <li>Turn ends when player rolls a 1 or chooses to hold.</li>
+				    <li>If player rolls a 1, they lose all points earned during the turn.</li>
+				    <li>If player holds, points earned during the turn are added to their total.</li>
+			    </ul>
+		    </fieldset>
+
+		    <label for="player1">Player 1</label>
+		    <input type="text" id="player1" >
+
+		    <label for="score1">Score</label>
+		    <input type="text" id="score1" value="0" disabled><br>
+
+		    <label for="player2">Player 2</label>
+		    <input type="text" id="player2">  
+
+		    <label for="score2">Score</label>
+		    <input type="text" id="score2" value="0" disabled>
+
+		    <input type="button" id="new_game" value="New Game"><br>
+
+		    <section id="turn" class="hide">
+			<div><span id="current"></span>'s turn</div>
+
+			<input type="button" id="roll" value="Roll">
+			<input type="button" id="hold" value="Hold">
+
+			<label for="die">Die</label>
+				<input type="text" id="die" disabled>
+				
+			<label for="total">Total</label>
+				<input type="text" id="total" disabled> 
+		    </section>
+
+        </main>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+            <script src="js/pig.js"></script>
+            <footer id="footer">
+                <hr>
+                <h3>Art by TeiahnFrost and Lumikeii</h3>
+        <a href="https://twitter.com/TeiahnFrost" target="_blank"><img class="tei" src="media/Teiny.png" alt="FOLLOW TEI NOW!"></a><a href="https://twitter.com/Lumikeii" target="_blank"><img class="tei" src="media/smolumi.png" alt="FOLLOW LUMI NOW!"></a>
+            </footer>
+        </body>
