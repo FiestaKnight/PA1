@@ -1,0 +1,17 @@
+{
+  "name": "pa1",
+  "version": "1.0.0",
+  "description": "Old Project reworked",
+  "main": "form.js",
+  "scripts": {
+    "test": "Test Test please work"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "npm2": "^2.0.0",
+    "validator": "^13.15.35"
+  }
+}
